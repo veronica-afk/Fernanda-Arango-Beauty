@@ -40,6 +40,14 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Verify build
+        run: |
+          echo "Contenido de dist:"
+          find dist -maxdepth 3 -type f
+          echo ""
+          echo "Contenido de dist/index.html:"
+          cat dist/index.html
+
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v6
 
