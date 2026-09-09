@@ -1,0 +1,6 @@
+{
+  "name": "Fernanda Arango Beauty",
+  "description": "Estudio premium de belleza y estilo por Fernanda Arango. Maquillaje de autor, peinados, manicure, faciales y producciones a domicilio y en atelier.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

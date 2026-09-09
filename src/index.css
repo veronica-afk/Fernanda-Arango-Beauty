@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF6F4;
+    color: #261F21;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom delicate glassmorphism and glow effects */
+.bg-warm-crema {
+  background-color: #FDFBF9;
+}
+
+.bg-soft-blush {
+  background-color: #F8ECE9;
+}
+
+.bg-nude-sand {
+  background-color: #F3EAE4;
+}
+
+.text-gold-subtle {
+  color: #B88E52;
+}
+
+.border-gold-subtle {
+  border-color: #E2CFB4;
+}
+
+/* Hide scrollbar for clean horizontal sliders */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
